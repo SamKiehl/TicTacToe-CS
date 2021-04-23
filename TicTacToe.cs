@@ -6,7 +6,7 @@ namespace Sharp{
         private char currentPlayer;
         public TicTacToe(){
             board = new char[9];
-            currentPlayer = 'X'; // The first player will always be x; 
+            currentPlayer = 'X'; // The first player will always be X; 
         }
         static void Main(string[] args){
            TicTacToe game = new TicTacToe();
